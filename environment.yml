@@ -1,0 +1,11 @@
+name: video_downloader
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pyqt
+  - ffmpeg
+  - pip
+  - pip:
+    - yt-dlp 
